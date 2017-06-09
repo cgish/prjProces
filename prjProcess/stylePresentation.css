@@ -1,0 +1,157 @@
+/*  style.css - Week 4 Individual Project Presentation only stylesheet
+                        Written by: Chris Gish 06/06/2017       gishc@csp.edu
+                        Revised:
+
+*/
+
+body {
+    background:            #FFFFFF;
+    font-size:             16px;
+    font-family:           helvetica, arial, sans-serif;
+}
+
+h1  {
+  /*  text-align: center;*/
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+h3  {
+    position: relative;
+    left: 3em;
+}
+
+p  {
+    font-size: 1.25em;
+    text-space: .15em;
+    line-height: 1.25em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+
+}
+
+table {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 150%;
+    text-align: center;
+    padding: 7px;
+    width: 75%;
+    margin-left: 10%;
+}
+
+ol  {
+    font-size: 1.25em;
+    text-space: .15em;
+    line-height: 1.25em;
+}
+
+.footer  {
+    clear: both;
+    margin:  3em;
+   /* padding: 2em;*/
+  /*  border: 3px solid deeppink;*/
+    font-size: 1.25em;
+}
+
+#CGPic {
+    float: left;
+    /*position: relative;*/
+    /*bottom: 6em;*/
+    /*right: 1em;*/
+    margin-right: 5em;
+    max-width: 75px;
+}
+
+/*#mockup  {
+   border: 3px yellow solid ;
+    border-color: yellow;
+    border-width: 5px;
+    border-style: solid;
+    clear: both;
+}
+*/
+/*________________________________-Thumbnail Images-_____*/
+#mockHomePage {
+    clear: both;
+ /*   border-color: red;
+    border-width: 5px;
+    border-style: solid;*/
+    /*padding: 1em;*/
+    /*margin: 1em;*/
+    /*margin-right: 3em;*/
+    /*padding: 1.5em;*/
+    /*border: 1px solid black;*/
+    /*border-radius: 1em;*/
+    text-align: center;
+   /*border: 1px red solid ;*/
+}
+
+#mockAdminViewEdit{
+    clear: both;
+    /*border-color: blue;
+    border-width: 5px;
+    border-style: solid;*/
+    /*margin: 1em;*/
+    /*margin-right: 3em;*/
+    /*padding: 1.5em;*/
+    /*border: 1px solid black;*/
+    /*border-radius: 1em;*/
+    text-align: center;
+    /*border: 1px blue solid ;*/
+}
+
+#mockAdminHome {
+    clear: both;
+    /*/*border-color: green;
+    border-width: 5px;
+    border-style: solid;*/
+    /*margin: 1em;*/
+    /*margin-right: 3em;*/
+    /*padding: 1.5em;*/
+    /*border: 1px solid black;*/
+    /*border-radius: 1em;*/
+    text-align: center;
+    /*border: 1px green solid ;*/
+}
+
+#tableData  {
+    clear: both;
+    /*margin: 1em;*/
+    /*margin-right: 2em;*/
+    margin-top: 3em;
+    text-align: center;
+    /*padding: 1.5em;*/
+    /*border: 1px solid black;*/
+    /*border-radius: 1em;*/
+    /*border: 1px solid purple;*/
+}
+
+#dataTable  {
+    clear: both;
+    /*margin: 1em;*/
+    /*margin-right: 5em;*/
+    margin-top: 3em;
+    /*margin-right: 15em;*/
+    text-align: center;
+    /*padding: 1.5em;*/
+    /*border: 1px solid black;*/
+   /* border-radius: 1em;*/
+    /*border: 1px solid orange;*/
+}/*_______________________________end thumbnails_________*/
+
+
+tr:nth-child(even) {
+    background:             #DDD;
+}
+
+tr:nth-child(odd) {
+    background:             #EEE;
+}

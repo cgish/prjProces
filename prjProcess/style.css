@@ -1,0 +1,14 @@
+/*  style.css - Week 4 Individual Project stylesheet
+                        Written by: Chris Gish 06/06/2017       gishc@csp.edu
+                        Revised:
+
+*/
+
+#CGPic {
+    float: left;
+    /*position: relative;*/
+    /*bottom: 6em;*/
+    /*right: 1em;*/
+    margin-right: 5em;
+    max-width: 75px;
+}
